@@ -33,12 +33,11 @@ function whereTest()
 }
 //selectTest();
 selectmanyTest();
-var a = {a:1, b:2, c:3};
 
-var n = Object.getOwnPropertyNames(a);
-for (var e in n) {
-  console.log(e);
-};
-console.log(n);
-
+function d()
+{
+  console.log((arguments).count());
+  console.log(({a:1}).count());
+}
+d();
 //whereTest();
