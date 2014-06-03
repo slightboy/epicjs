@@ -10,8 +10,7 @@ var System = require('epicjs');
 
 ## new
 
-  * Array.prototype.distinct
-  * Array.prototype.removeValue
+  * Array.prototype fix some args problem
 
 ## Quick Start
 
