@@ -19,7 +19,9 @@
     }
   ],
   "repository": "git://github.com/slightboy/epicjs",
-  "dependencies": {},
+  "dependencies": {
+    "epiclambda": "0.0.12"
+  },
   "devDependencies": {
     "benchmark": "^1.0.0",
     "colors": "0.5.1",
