@@ -1,9 +1,8 @@
-var epic = require('../index');
-require('colors');
+var util = require("util");
+var e = require('../lib/e');
 
-var test = 'abc';
 
-console.log('Word: test'.green);
+
 
 console.log('startsWith true = %s', test.startsWith('a'));
 console.log('endsWith true = %s', test.endsWith('c'));

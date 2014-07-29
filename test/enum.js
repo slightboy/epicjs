@@ -1,4 +1,4 @@
-var System = require('../index.js');
+var System = require('../');
 
 var testEnums = new System.Enum({a:1, b:2});
 console.log(TypeCode.Object);
