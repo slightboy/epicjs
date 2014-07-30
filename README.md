@@ -6,21 +6,42 @@ var System = require('epicjs');
 
 ## Installation
 
+```bash
     $ npm install epicjs
+```
 
-## new
-
-  * Array.prototype fix some args problem
-
-## Quick Start
+## Usage
 
 
+```js
+var $ = require('epicjs').Linq;
+var query = $([]).where('e => e > 1').any();
+```
+
+or
+
+```js
+require('epicjs');
+var query = [].asQueryable();
+```
+
+or
+
+```js
+require('epicjs');
+var query = [].Linq();
+```
 
 ## Features
 
-  * lambda
-  * Array, String, Number, Object prototype extension
-  * new Type Guid, Enum
+  * any
+  * first
+  * last
+  * count
+  * select
+  * selectmany
+  * where
+  * each
 
 ## Contributors
   

@@ -59,9 +59,6 @@ describe('linq', function()
 
   describe('#first', function()
   {
-
-
-
     it('array with fn', function()
     {
       assert.deepEqual([3, 4], a.first('e => e[0] > 2'));
